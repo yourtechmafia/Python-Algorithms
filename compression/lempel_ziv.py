@@ -25,7 +25,7 @@ def read_file_binary(file_path: str) -> str:
         sys.exit()
 
 
-def add_key_to_lexicon(
+def add_key_to_lexicon (
     lexicon: dict[str, str], curr_string: str, index: int, last_match_id: str
 ) -> None:
     """
